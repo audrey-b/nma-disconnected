@@ -1,17 +1,20 @@
 
 n.disconnected.nodes <- 6
-max.samples <- 4
-output.folder <- "output"
-RData.folder <- "RData_files"
+
+max.samples <- 4 #Maximum number of disconnected networks simulated
+
+output.folder <- "output" #Name of the folder containing the results
+RData.folder <- "RData_files" #Name of the folder containing the saved objects
+
 ref.trt <- 2
 
 #MCMC parameters
 
-n.chains <- 1
-n.samples <- 101
-n.adapt <- 101
-thin <- 1
-n.burnin <- 0
+n.chains <- 1 #Number of mcmc chains
+n.samples <- 101 #Number of mcmc iterations
+n.adapt <- 101 #Number of adaptive iterations (tuning)
+thin <- 1 #Thinning factor
+n.burnin <- 0 #Number of iterations in the burn-in period
 
 #Function's name for data sampling
 
