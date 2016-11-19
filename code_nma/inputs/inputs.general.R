@@ -6,7 +6,7 @@ if (Sys.info()["user"] == "a.beliveau"){
   workdir <- "~/network-meta-analysis"
 }
 
-other.inputs <- "inputs.depression.4.debug.R"
+other.inputs <- "inputs.depression.6.debug.R"
 source(other.inputs)
 
 print.posterior.plots <- TRUE
